@@ -1,0 +1,41 @@
+name: mychef
+description: "A new Flutter project."
+publish_to: 'none' # This prevents accidental publishing to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0-149.0.dev <4.0.0' # Ensure that your SDK constraints are compatible with the packages you are using
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add the flutter_svg package for SVG support. Make sure to check for the latest version on pub.dev
+  flutter_svg: ^1.0.3 # Replace with the latest version found on pub.dev
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Include flutter_lints for linting recommendations
+  flutter_lints: ^3.0.0
+  flutter_rating_bar: ^4.0.0 
+
+flutter:
+  # Include all your assets here
+  assets:
+    - assets/images/logochef.jpg # Assuming you have the chef logo as a .jpg
+    # Since SVG files should be placed in an assets directory, rather than the lib directory, you need to move them
+    # Remove the SVG assets from the 'assets/images/' path and place them in an 'assets/icons/' directory
+    - assets/images/user.png
+    - assets/images/chef.jpeg
+    - assets/images/user1.png
+    - assets/images/food1.jpeg
+    - assets/images/food2.jpeg
+    - assets/images/food3.jpeg
+    - assets/icons/facebook_icon.svg
+    - assets/images/google_icon.png
+    - assets/icons/home_icon.png
+    - assets/icons/ring_icon.png
+    - assets/icons/robot_icon.png
+    - assets/icons/person_icon.png
+    - assets/icons/save_icon.png
+  # This line includes the default Material Icons
+  uses-material-design: true
