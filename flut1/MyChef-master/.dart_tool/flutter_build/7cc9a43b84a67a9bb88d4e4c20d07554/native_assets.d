@@ -1,0 +1,1 @@
+ /Users/chouroukdj/flut1/MyChef-master/.dart_tool/flutter_build/7cc9a43b84a67a9bb88d4e4c20d07554/native_assets.yaml: 
