@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "96744850313",
+    "firebase_url": "https://mychef-3ef78-default-rtdb.firebaseio.com",
+    "project_id": "mychef-3ef78",
+    "storage_bucket": "mychef-3ef78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96744850313:android:14decb4aa0e5a133dfd758",
+        "android_client_info": {
+          "package_name": "com.example.chef"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Gc9uVvNDHxZUXyykc7WgohvMltFh1yQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
