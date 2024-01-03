@@ -205,6 +205,8 @@ class TermsScreen extends StatelessWidget {
               'Welcome to MyChef! By accessing our app, you agree to these terms and conditions. Please read them carefully.',
               style: TextStyle(fontSize: 16),
             ),
+            // Include your terms text here. Consider using an ExpansionTile to organize sections.
+            // ...
           ],
         ),
       ),
